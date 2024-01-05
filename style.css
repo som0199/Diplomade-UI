@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family:; */
+    font-family:"Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
     
 }
 .diplomade{
@@ -13,20 +13,24 @@
     justify-content: center;
     flex-direction: column;
     row-gap: 30px;
+    background-color: rgb(230, 230, 230);
 
 }
 .con{
     height: auto;
-    width: 100%;
+    width: 85%;
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
     padding-inline: 3%;
     padding-top: 1%;
+    padding-bottom: 15px;
     row-gap: 50px;
     border: 1px solid transparent;
     border-radius: 20px;
+    margin-top: 10px;
+    background-color: white;
 
 }
 .con span{
@@ -42,12 +46,13 @@ span img{
     width: 50px;
 }
 span h4{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
 }
 span hr{
     width: 100%;
-    color: rgb(142,194,220);
+    height: auto;
+    color: rgb(59, 174, 231);
 }
 
 .lr{
@@ -71,13 +76,13 @@ span hr{
     row-gap: 30px;
 }
  .left h1{
-    font-size: 70px;
+    font-size: 60px;
     width: 90%;
 
  }
 
  .left p{
-    font-size: 22px;
+    font-size: 21px;
     width: 90%;
  }
 
@@ -96,7 +101,7 @@ span hr{
     transform: scaleX(1.02);
  }
 
-.lr .right{
+.right{
     height: auto;
     width: 55%;
     display: flex;
@@ -130,7 +135,7 @@ span hr{
     width: 100%;
 }
 
-.right .spn{
+.spn{
     height: auto;
     width: 100%;
     display: flex;
@@ -151,7 +156,7 @@ span hr{
     
 }
 .the{
-    height: 130px;
+    height: auto;
     width: 50%;
     display: flex;
     align-items: start;
@@ -161,6 +166,7 @@ span hr{
     border: 0.3px solid grey ;
     border-radius: 10px;
     padding: 1%;
+    padding-bottom: 50px;
 }
 
 /* con1 */
@@ -178,7 +184,7 @@ span hr{
 }
 .box{
     height: auto;
-    width: 32%;
+    width: 33.33%;
     display: flex;
     align-items: start;
     justify-content: center;
@@ -209,18 +215,20 @@ span hr{
 }
 .box p{
     font-size: 16px;
-    width: 80%;
 }
 
 .box:first-child{
+    padding-bottom: 16px;
     background-color: rgb(36,28,45);
     color: white;
 }
 .box:nth-child(2){
+    padding-bottom: 35px;
     background-color: rgb(122,184,214);
     color: white;
 }
 .box:nth-child(3){
+    
     background-color: rgb(135,151,210);
     color: white;
 }
